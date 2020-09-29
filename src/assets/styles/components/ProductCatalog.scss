@@ -1,0 +1,20 @@
+.prod-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.prod-catalog h1 {
+  margin-top: 30px;
+  margin-left: 130px;
+}
+
+.prod-catalog__container {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 130px;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}

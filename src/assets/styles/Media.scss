@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px) {
+  .header__img {
+    width: 73px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .header__title--kosarica {
+    display: none;
+  }
+
+  .header__menu {
+    margin-top: 5px;
+  }
+
+  .header__menu li {
+    margin: 3px 0px;
+  }
+
+  .profile-icon {
+    width: 25px;
+  }
+
+  footer {
+    font-size: 13px;
+  }
+}

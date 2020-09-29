@@ -1,0 +1,50 @@
+@import '../Vars.scss';
+
+.header {
+  width: 100%;
+  background-color: $green-color;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__brand-link,
+.header__menu {
+  text-decoration: none;
+  padding: 20px 130px;
+}
+
+.header__brand {
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+  color: $main-color;
+}
+
+.header__img {
+  width: 80px;
+  margin-right: 25px;
+}
+
+.header__title--kosarica {
+  margin-top: 20px;
+  font-weight: 900;
+}
+
+.header__menu--profile {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header__menu--profile img {
+  width: 35px;
+  margin-right: 8px;
+}
+
+.header__menu--profile p {
+  margin: 0px;
+  color: $main-color;
+}

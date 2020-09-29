@@ -1,0 +1,41 @@
+@import '../Vars.scss';
+.shopping-cart {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: #f1f1e8;
+}
+
+.shopping-cart h3 {
+  margin: 30px 15px 0px 15px;
+}
+
+.shopping-cart__container {
+  width: 90%;
+  margin: 15px 15px;
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+.shopping-cart__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-finish-shopp {
+  padding: 13px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: $main-color;
+  background-color: #0278ae;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+}
